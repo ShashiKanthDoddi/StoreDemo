@@ -1,10 +1,10 @@
-package com.mystore.Mystore;
+package com.mystore.Mystore.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorld {
+public class Home {
     @RequestMapping("/")
     public String hellotag(){
         return "Hello World";
