@@ -15,5 +15,11 @@ public class HelloWorld {
     public String login(){
         return "It blody fokin login page! ehhh";
     }
+
+
+    @RequestMapping("/About")
+    public String About(){
+        return "It blody fokin About page! ehhh";
+    }
 }
 
